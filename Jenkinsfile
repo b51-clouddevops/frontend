@@ -2,6 +2,6 @@
 
 env.COMPONENT="catalogue"
 env.APPTYPE="angularjs"
-nodejs()
+angularjs()
 
 
