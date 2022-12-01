@@ -1,6 +1,6 @@
 @Library('roboshop-shared-library@main') _
 
-env.COMPONENT="catalogue"
+env.COMPONENT="frontend"
 env.APPTYPE="angularjs"
 angularjs()
 
