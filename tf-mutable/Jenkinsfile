@@ -1,0 +1,7 @@
+@Library('roboshop-shared-library@main') _
+
+env.REPONAME="frontend"
+env.TERRAFORM_DIR="tf-mutable"
+terraform()
+// No need to mention call, nodejs.call()
+

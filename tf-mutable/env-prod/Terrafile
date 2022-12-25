@@ -1,0 +1,3 @@
+app:
+    source:  "https://github.com/b51-clouddevops/tf-module-mutable-app.git"
+    version: "main"  
