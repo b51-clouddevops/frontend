@@ -1,25 +1,25 @@
+
 apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: frontend
   labels:
-    app: frontend
+    app: frontend 
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: frontend 
   template:
     metadata:
       labels:
-        app: frontend
+        app: frontend 
     spec:
       containers:
       - name: frontend
         image: 834725375088.dkr.ecr.us-east-1.amazonaws.com/frontend:3.0.1
         ports:
         - containerPort: 80
-
 
 --- 
 apiVersion: v1
