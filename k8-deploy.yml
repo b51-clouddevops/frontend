@@ -43,7 +43,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: frontend.robot51.tk
+  - host: frontend.robot51.tk             # Use host only when you need external to internal translation.
     http:
       paths:
       - path: /
@@ -53,3 +53,4 @@ spec:
             name: frontend-service
             port:
               number: 80
+    
